@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity" >
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아이폰" />
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="안드로이드" />
+
+    <Switch
+        android:id="@+id/sb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="스위치버튼" />
+
+    <RadioButton
+        android:id="@+id/rb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rb1" />
+
+    <RadioButton
+        android:id="@+id/rb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rb2" />
+
+    <RadioGroup
+        android:id="@+id/rbg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rb3" />
+
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rb4" />
+
+        <RadioButton
+            android:id="@+id/rb5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rb5" />
+    </RadioGroup>
+</LinearLayout>
